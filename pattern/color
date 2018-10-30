@@ -1,0 +1,24 @@
+# normal
+GREEN=0,100,0
+# error not run
+BLACK=0,0,0
+# error curl
+ORANGE=200,100,0
+# error mackerel access 
+BLUE=0,0,100
+# error CRITICAL
+RED=200,0,0
+# error WARNING
+YELLOW=200,200,0
+# error UNKNOWN
+PURPLE=100,0,100
+# default
+COLOR=${BLACK}
+# mapping error
+COLOR_ERROR_CURL=${ORANGE}
+COLOR_ERROR_MACKEREL=${BLUE}
+# mapping alert status
+COLOR_OK=${GREEN}
+COLOR_CRITICAL=${RED}
+COLOR_WARNING=${YELLOW}
+COLOR_UNKNOWN=${PURPLE}

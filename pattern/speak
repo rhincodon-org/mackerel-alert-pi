@@ -1,0 +1,9 @@
+SPEAK_OK=""
+SPEAK_ERROR="発生しています。"
+SPEAK_ERROR_UNIT="件"
+SPEAK_ERROR_CURL="ネットワーク接続で失敗してます。"
+SPEAK_ERROR_MACKEREL="マカレルのアクセスで失敗してます。"
+SPEAK_ERROR_CRITICAL="クリティカル"
+SPEAK_ERROR_WARNING="ワーニング"
+SPEAK_ERROR_UNKNOWN="アンノーン"
+SPEAK=${SPEAK_OK}

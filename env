@@ -1,0 +1,11 @@
+#######
+# env #
+#######
+
+## You don't need to change under the params. ##
+NOWTIME=`date "+%Y%m%d-%H%M%S"`
+MACKERELAPI="https://api.mackerelio.com/api/v0"
+JSONPARSE="status"
+ALERTPIAPI="http://localhost/ctrl"
+TH=100
+CURL_TIMEOUT=10

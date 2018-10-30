@@ -1,0 +1,2 @@
+PERIOD_BASE=`expr $TH \* 100`
+PERIOD=${PERIOD_BASE}
