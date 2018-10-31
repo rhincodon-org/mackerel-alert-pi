@@ -31,7 +31,8 @@ mackerelのRead権限のapikeyがあれば、運用開始できます。
 
 * mackerelのアラート発生中は、音声で継続的にお知らせ
 * 正常時：無音
-* アラート
+* アラート発生時：発生中のアラート数を数えて、以下のテンプレートでお知らせ
+  「<チーム名> <チーム名> クリティカル1件 ワーニング2件 発生しています。」
 
 ### 監視周期
 
@@ -57,7 +58,7 @@ mackerel-alert-piの動作前提条件は、以下です。
 * ネットワーク設定
   * インストールファイルのダウンロードとmackerelへのアラート定期取得用のため、インターネットへ接続可能であること
 * ミドルウェアインストール
-  * Crystal-Signal-Piの[インストールマニュアル(http://crystal-signal.com/other/Crystal_Signal_Pi_software.pdf)]のinstall.sh
+  * Crystal-Signal-Piの[インストールマニュアル](http://crystal-signal.com/other/Crystal_Signal_Pi_software.pdf)のinstall.shをインストールしてCrystal-Signal-PiのWeb管理画面が表示できること
 
 ## インストール
 
